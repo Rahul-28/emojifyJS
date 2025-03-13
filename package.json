@@ -11,7 +11,7 @@
   "type": "module",
   "scripts": {
     "build": "tsup",
-    "ci": "npm run build && npm run prettier:check && npm run check-exports && npm lint && npm run test",
+    "ci": "npm run build && npm run prettier:check && npm run check-exports && npm run lint && npm run test",
     "check-exports": "attw --pack . --ignore-rules=cjs-resolves-to-esm",
     "dev": "vitest",
     "lint": "tsc",
