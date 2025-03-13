@@ -1,2 +1,3 @@
-# -rahul-emojifyJS
+# emojifyJS
+
 A Js module that converts text to emojis
