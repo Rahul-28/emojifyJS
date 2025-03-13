@@ -1,0 +1,35 @@
+{
+  "name": "emojifyjs",
+  "version": "1.0.0",
+  "description": "A simple JS module that converts texts to emojis",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "ci": "npm run build && npm run prettier:check",
+    "prettier:format": "prettier --write .",
+    "prettier:check": "prettier --check .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rahul-28/emojifyJS.git"
+  },
+  "author": "Rahul Rajesh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rahul-28/emojifyJS/issues"
+  },
+  "homepage": "https://github.com/Rahul-28/emojifyJS#readme",
+  "devDependencies": {
+    "prettier": "^3.5.3",
+    "ts-node": "^10.9.2",
+    "tsup": "^8.4.0",
+    "typescript": "^5.8.2"
+  }
+}
