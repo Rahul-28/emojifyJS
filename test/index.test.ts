@@ -1,4 +1,4 @@
-import { add } from './index.js';
+import { add } from '../src/index';
 import { test, expect } from 'vitest';
 
 test('add', () => {

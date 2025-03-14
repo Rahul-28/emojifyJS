@@ -14,7 +14,9 @@
     "ci": "npm run build && npm run prettier:check && npm run check-exports && npm run lint && npm run test",
     "check-exports": "attw --pack . --ignore-rules=cjs-resolves-to-esm",
     "dev": "vitest",
+    "local-release": "changeset version && changeset publish",
     "lint": "tsc",
+    "prepublishOnly": "npm run ci",
     "prettier:format": "prettier --write .",
     "prettier:check": "prettier --check .",
     "test": "vitest run"
@@ -31,6 +33,7 @@
   "homepage": "https://github.com/Rahul-28/emojifyJS#readme",
   "devDependencies": {
     "@arethetypeswrong/cli": "^0.17.4",
+    "@changesets/cli": "^2.28.1",
     "prettier": "^3.5.3",
     "ts-node": "^10.9.2",
     "tsup": "^8.4.0",
