@@ -8,7 +8,6 @@
   "files": [
     "dist"
   ],
-  "type": "module",
   "scripts": {
     "build": "tsup",
     "ci": "npm run build && npm run prettier:check && npm run check-exports && npm run lint && npm run test",
@@ -46,5 +45,9 @@
       "import": "./dist/index.js",
       "default": "./dist/index.cjs"
     }
+  },
+  "dependencies": {
+    "emoji-datasource-apple": "^15.1.2",
+    "emoji-datasource-google": "^15.1.2"
   }
 }
