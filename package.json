@@ -1,5 +1,5 @@
 {
-  "name": "emojifyjs",
+  "name": "emojify-ts",
   "version": "1.0.0",
   "description": "A simple JS module that converts texts to emojis",
   "main": "./dist/index.js",
@@ -23,14 +23,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Rahul-28/emojifyJS.git"
+    "url": "git+https://github.com/Rahul-28/emojify-ts.git"
   },
   "author": "Rahul Rajesh",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Rahul-28/emojifyJS/issues"
+    "url": "https://github.com/Rahul-28/emojify-ts/issues"
   },
-  "homepage": "https://github.com/Rahul-28/emojifyJS#readme",
+  "homepage": "https://github.com/Rahul-28/emojify-ts#readme",
   "devDependencies": {
     "@arethetypeswrong/cli": "^0.17.4",
     "@changesets/cli": "^2.28.1",
